@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    padding: 26px 334px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 215px;
+    height: 49px;
+}
+
+.logo-menu {
+    width: 30px;
+    height: 30px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/Main.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    align-items: center;
+}
+
+.main-wrapper h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 74px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 250px;
+}
+
+.main-wrapper p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.main-button {
+    width: 280px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 60px;
+    color: #000;
+    background: transparent;
+    border: none;
+    outline: 1px solid #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
